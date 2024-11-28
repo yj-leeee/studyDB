@@ -18,6 +18,8 @@ public class CommentJdbcRepositoryTest {
 //		- 클래스의 멤버변수인 commentJdbcRepository로 테스트
 //		- selectAllComments()메서드를 호출하여 결과를 출력
 //		1장 72p
+//힌트 :testSelectCommentByPrimaryKey()메서드와 유사하게 동작
+//	main()메서드에서 해당 테스트 메서드를 호출하게 만들것
 //	}
 
 	public void testInsertComment() {
