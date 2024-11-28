@@ -5,19 +5,29 @@
 <configuration>
 	<typeAliases>
 		<typeAlias type="ldg.mybatis.model.Comment" alias="Comment" />
+<!-- 		<typeAlias(=등록하면) type="ldg.mybatis.model.Comment"(=이걸) alias="Comment"(=이렇게 줄여준다) /> -->
 	</typeAliases>
 	<environments default="development">
 		<environment id="development">
 			<transactionManager type="JDBC" />
+<!-- 			트랜잭션 관리자(JDBC를 대체하기 때문에 type은 JDBC로 지정하면 됨) -->
+<!-- 			------2번----- -->
 			<dataSource type="POOLED">
 				<property name="driver" value="com.mysql.cj.jdbc.Driver" />
 				<property name="url" value="jdbc:mysql://localhost:3306/mybatis_example" />
 				<property name="username" value="mybatis" />
 				<property name="password" value="mybatis" />
 			</dataSource>
+			------2번-----
+<!-- 			ㄴ데이터베이스 설정  -->
+<!-- 			- 데이터베이스 연결 정보를 설정(드라이브 클래스명, JDBC URL, 계정정보 등) -->
+<!-- 			- 기존 JDBC 코드의 getConnection 메서드에서 사용한 값을 사용 -->
 		</environment>
 	</environments>
 	<mappers>
 		<mapper resource="ldg/mybatis/repository/mapper/CommentMapper.xml" />
+<!-- 		매퍼 정보 설정 -->
+<!-- 		- SQL을 선언해둔 XML이나 인터페이스 형태의 매퍼 위치 지정 -->
+<!-- 			- XML위치는 클래스 패스를 기준으로 지정 -->
 	</mappers>
 </configuration>
