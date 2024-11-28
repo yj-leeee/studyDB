@@ -14,7 +14,7 @@ import ldg.mybatis.model.Comment;
 public class CommentJdbcRepository {
 	private Connection getConnection() {
 		try {
-			Class.forName("com.mysql.jdbc.Driver").newInstance();
+			Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
 			return DriverManager.getConnection("jdbc:mysql://localhost:3306/mybatis_example", 
 				"mybatis", "mybatis");
 		} catch (Exception e) {
