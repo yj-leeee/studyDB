@@ -25,8 +25,12 @@ public class CommentJdbcRepository {
 	 * public List<Comment>selectAllComments(){ 1장 실습 71p public
 	 * List<Comment>selectAllComments 메서드 구현 }
 	 */
-
-	
+	/*
+	 * 힌트 selectCommentByPrimaryKey()메서드 참고로 구현 가능 
+	 * - 조건 없이 모든 댓글 가져올수있도록 sql문 수정 
+	 * -
+	 * 여러행을 처리하기 위해 while 루프 처리 - List<Comment>타입의 지역 변수를 선언하여 관리
+	 */	
 	
 	public Comment selectCommentByPrimaryKey(Long commentNo) {
 		Connection conn = null;
