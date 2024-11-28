@@ -21,7 +21,13 @@ public class CommentJdbcRepository {
 			throw new IllegalStateException(e);
 		}
 	}
+	/*
+	 * public List<Comment>selectAllComments(){ 1장 실습 71p public
+	 * List<Comment>selectAllComments 메서드 구현 }
+	 */
 
+	
+	
 	public Comment selectCommentByPrimaryKey(Long commentNo) {
 		Connection conn = null;
 		PreparedStatement stmt = null;
