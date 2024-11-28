@@ -13,6 +13,12 @@ public class CommentJdbcRepositoryTest {
 
 		System.out.println(comment);
 	}
+//	private void testSelectAllComments() {
+//		private void testSelectAllComments() 메서드 구현
+//		- 클래스의 멤버변수인 commentJdbcRepository로 테스트
+//		- selectAllComments()메서드를 호출하여 결과를 출력
+//		1장 72p
+//	}
 
 	public void testInsertComment() {
 		Long commentNo = 1L;
