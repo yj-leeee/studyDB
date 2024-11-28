@@ -11,7 +11,7 @@ import org.apache.ibatis.session.*;
 public class CommentSessionRepository {
 	private final String namespace = "ldg.mybatis.repository.mapper.CommentMapper";
 
-	private SqlSessionFactory getSqlSessionFactory() {
+	1번 private SqlSessionFactory getSqlSessionFactory() {
 		String resource = "mybatis-config.xml";
 		InputStream inputStream;
 		try {
