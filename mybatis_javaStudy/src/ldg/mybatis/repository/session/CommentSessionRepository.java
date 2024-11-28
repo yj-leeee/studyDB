@@ -19,7 +19,7 @@ public class CommentSessionRepository {
 		} catch (IOException e) {
 			throw new IllegalArgumentException(e);
 		}
-	2번	return new SqlSessionFactoryBuilder().build(inputStream);
+	2번-1	return new SqlSessionFactoryBuilder().build(inputStream);
 	}
 
 	public Comment selectCommentByPrimaryKey(Long commentNo) {
