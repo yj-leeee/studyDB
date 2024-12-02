@@ -63,10 +63,10 @@ public class CommentSessionRepositoryTest {
 	public static void main(String[] args) {
 		CommentSessionRepositoryTest test = new CommentSessionRepositoryTest();
 
-		test.testSelectCommentByPrimaryKey();
+//		test.testSelectCommentByPrimaryKey();
 //		test.testInsertComment();
 //		test.testUpdateComment();
-//		test.testDeleteComment();
+		test.testDeleteComment();
 //		test.testSelectCommentByCondition();
 	}
 }

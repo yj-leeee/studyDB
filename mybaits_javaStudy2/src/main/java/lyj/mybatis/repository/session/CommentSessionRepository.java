@@ -9,7 +9,7 @@ import org.apache.ibatis.session.*;
 import lyj.mybatis.model.Comment;
 
 public class CommentSessionRepository {
-	private final String namespace = "ldg.mybatis.repository.mapper.CommentMapper";
+	private final String namespace = "lyj.mybatis.repository.mapper.CommentMapper";
 
 	private SqlSessionFactory getSqlSessionFactory() {
 		String resource = "mybatis-config.xml";

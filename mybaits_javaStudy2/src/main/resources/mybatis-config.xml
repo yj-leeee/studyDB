@@ -4,7 +4,7 @@
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 	<typeAliases>
-		<typeAlias type="ldg.mybatis.model.Comment" alias="Comment" />
+		<typeAlias type="lyj.mybatis.model.Comment" alias="Comment" />
 <!-- 		<typeAlias(=등록하면) type="ldg.mybatis.model.Comment"(=이걸) alias="Comment"(=이렇게 줄여준다) /> -->
 	</typeAliases>
 	<environments default="development">
@@ -25,7 +25,7 @@
 		</environment>
 	</environments>
 	<mappers>
-		<mapper resource="ldg/mybatis/repository/mapper/CommentMapper.xml" />
+		<mapper resource="lyj/mybatis/repository/mapper/CommentMapper.xml" />
 <!-- 		매퍼 정보 설정 -->
 <!-- 		- SQL을 선언해둔 XML이나 인터페이스 형태의 매퍼 위치 지정 -->
 <!-- 			- XML위치는 클래스 패스를 기준으로 지정 -->

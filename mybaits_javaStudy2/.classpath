@@ -38,5 +38,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/b5872/Downloads/mysql-connector-j-8.0.33.jar"/>
+	<classpathentry kind="lib" path="C:/Users/b5872/Downloads/mybatis-3.5.16/mybatis-3.5.16/mybatis-3.5.16.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
