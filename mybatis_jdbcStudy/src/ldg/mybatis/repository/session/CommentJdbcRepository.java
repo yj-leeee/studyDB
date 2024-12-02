@@ -43,8 +43,8 @@ public class CommentJdbcRepository {
 //			sql.append("FROM COMMENT ");
 //			sql.append("WHERE comment_no = ?");
 //			stmt = conn.prepareStatement(sql.toString());
-			stmt.setLong(1, commentNo);
-			rs = stmt.executeQuery();
+//			stmt.setLong(1, commentNo);
+//			rs = stmt.executeQuery();
 
 			if (rs.next()) {
 				Comment comment = new Comment();
