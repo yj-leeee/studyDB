@@ -38,11 +38,11 @@ public class CommentJdbcRepository {
 //		ResultSet rs = null;
 //		try {
 //			conn = this.getConnection();
-			StringBuilder sql = new StringBuilder("");
-			sql.append("SELECT comment_no, user_id, comment_content, reg_date ");
-			sql.append("FROM COMMENT ");
-			sql.append("WHERE comment_no = ?");
-			stmt = conn.prepareStatement(sql.toString());
+//			StringBuilder sql = new StringBuilder("");
+//			sql.append("SELECT comment_no, user_id, comment_content, reg_date ");
+//			sql.append("FROM COMMENT ");
+//			sql.append("WHERE comment_no = ?");
+//			stmt = conn.prepareStatement(sql.toString());
 			stmt.setLong(1, commentNo);
 			rs = stmt.executeQuery();
 
