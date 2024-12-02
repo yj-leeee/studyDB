@@ -33,11 +33,11 @@ public class CommentJdbcRepository {
 	 */	
 	
 	public Comment selectCommentByPrimaryKey(Long commentNo) {
-		Connection conn = null;
-		PreparedStatement stmt = null;
-		ResultSet rs = null;
-		try {
-			conn = this.getConnection();
+//		Connection conn = null;
+//		PreparedStatement stmt = null;
+//		ResultSet rs = null;
+//		try {
+//			conn = this.getConnection();
 			StringBuilder sql = new StringBuilder("");
 			sql.append("SELECT comment_no, user_id, comment_content, reg_date ");
 			sql.append("FROM COMMENT ");
