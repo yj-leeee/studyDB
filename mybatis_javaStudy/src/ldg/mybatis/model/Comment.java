@@ -3,6 +3,7 @@ package ldg.mybatis.model;
 import java.io.Serializable;
 import java.util.Date;
 
+//캐시 사용을 위해 implements Serializable 추가
 @SuppressWarnings("serial")
 public class Comment implements Serializable {
 	private Long commentNo;
