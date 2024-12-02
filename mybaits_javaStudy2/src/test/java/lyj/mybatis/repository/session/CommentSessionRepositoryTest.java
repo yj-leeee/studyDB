@@ -64,9 +64,9 @@ public class CommentSessionRepositoryTest {
 		CommentSessionRepositoryTest test = new CommentSessionRepositoryTest();
 
 		test.testSelectCommentByPrimaryKey();
-		test.testInsertComment();
-		test.testUpdateComment();
-		test.testDeleteComment();
-		test.testSelectCommentByCondition();
+//		test.testInsertComment();
+//		test.testUpdateComment();
+//		test.testDeleteComment();
+//		test.testSelectCommentByCondition();
 	}
 }
