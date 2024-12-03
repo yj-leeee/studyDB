@@ -41,7 +41,7 @@ public class CommentSessionRepository {
 	}
 
 	public Integer insertComment(Comment comment) {
-		SqlSession sqlSession = getSqlSessionFactory().openSession();
+//		SqlSession sqlSession = getSqlSessionFactory().openSession();
 		try {
 			String statement = namespace + ".insertComment";
 			int result = sqlSession.insert(statement, comment);
