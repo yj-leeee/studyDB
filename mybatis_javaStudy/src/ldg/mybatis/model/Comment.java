@@ -7,6 +7,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+//3장 (3)54p부터 실습
 //캐시 사용을 위해 implements Serializable 추가
 @SuppressWarnings("serial")
 @Getter @Setter @ToString
