@@ -33,10 +33,11 @@
 		</where>
 	</select>
 
-	<insert id="insertComment" parameterType="ldg.mybatis.model.Comment">
-		INSERT INTO COMMENT(comment_no, user_id, comment_content, reg_date)
-		VALUES (#{commentNo}, #{userId}, #{commentContent}, #{regDate})
-	</insert>
+
+<!-- 	<insert id="insertComment" parameterType="ldg.mybatis.model.Comment"> -->
+<!-- 		INSERT INTO COMMENT(comment_no, user_id, comment_content, reg_date) -->
+<!-- 		VALUES (#{commentNo}, #{userId}, #{commentContent}, #{regDate}) -->
+<!-- 	</insert> -->
 
 	<update id="updateComment" parameterType="ldg.mybatis.model.Comment">
 		UPDATE comment SET 
