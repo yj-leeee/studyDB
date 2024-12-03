@@ -43,8 +43,8 @@ public class CommentSessionRepository {
 	public Integer insertComment(Comment comment) {
 //		SqlSession sqlSession = getSqlSessionFactory().openSession();
 		try {
-			String statement = namespace + ".insertComment";
-			int result = sqlSession.insert(statement, comment);
+//			String statement = namespace + ".insertComment";
+//			int result = sqlSession.insert(statement, comment);
 			if (result > 0) {
 				sqlSession.commit();
 			} else {
