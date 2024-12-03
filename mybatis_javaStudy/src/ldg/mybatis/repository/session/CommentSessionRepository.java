@@ -45,9 +45,10 @@ public class CommentSessionRepository {
 		try {
 //			String statement = namespace + ".insertComment";
 //			int result = sqlSession.insert(statement, comment);
-			if (result > 0) {
-				sqlSession.commit();
-			} else {
+//			if (result > 0) {
+//				sqlSession.commit();
+//			} 
+			else {
 				sqlSession.rollback();
 			}
 			return result;
