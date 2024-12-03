@@ -11,7 +11,7 @@ public class CommentSessionRepositoryTest {
 		Long commentNo = 1L;
 		Comment comment = commentSessionRepository.selectCommentByPrimaryKey(commentNo);
 
-		System.out.println(comment);
+		//System.out.println(comment);
 	}
 
 	public void testInsertComment() {
