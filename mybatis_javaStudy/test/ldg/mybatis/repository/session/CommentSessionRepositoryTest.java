@@ -12,6 +12,7 @@ public class CommentSessionRepositoryTest {
 		Comment comment = commentSessionRepository.selectCommentByPrimaryKey(commentNo);
 
 		//System.out.println(comment);
+		System.out.println(comment.toString());
 	}
 
 	public void testInsertComment() {
