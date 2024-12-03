@@ -152,9 +152,9 @@ public class CommentJdbcRepository {
 			sql.append("UPDATE comment SET ");
 			sql.append("	comment_content = ? ");
 			sql.append("WHERE comment_no = ? ");
-			stmt = conn.prepareStatement(sql.toString());
-			stmt.setString(1, comment.getCommentContent());
-			stmt.setLong(2, comment.getCommentNo());
+//			stmt = conn.prepareStatement(sql.toString());
+//			stmt.setString(1, comment.getCommentContent());
+//			stmt.setLong(2, comment.getCommentNo());
 			return stmt.executeUpdate();
 		} catch (Exception e) {
 			e.printStackTrace();
