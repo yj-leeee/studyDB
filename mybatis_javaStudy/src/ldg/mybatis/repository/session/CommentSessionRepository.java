@@ -71,7 +71,7 @@ public class CommentSessionRepository {
 		}
 	}
 
-	public Integer deleteComment(Long commentNo) {
+	//public Integer deleteComment(Long commentNo) {
 		SqlSession sqlSession = getSqlSessionFactory().openSession();
 		try {
 			String statement = namespace + ".deleteComment";
