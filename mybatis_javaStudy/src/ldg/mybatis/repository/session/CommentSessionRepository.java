@@ -47,7 +47,7 @@ public class CommentSessionRepository {
 //			int result = sqlSession.insert(statement, comment);
 //			if (result > 0) {
 //				sqlSession.commit();
-//			} 
+//			} //
 			else {
 				sqlSession.rollback();
 			}
