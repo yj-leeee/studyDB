@@ -26,7 +26,7 @@ public abstract class AbstractRepository {
 //		sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 //	}
 
-	protected SqlSessionFactory getSqlSessionFactory() {
-		return sqlSessionFactory;
-	}
+//	protected SqlSessionFactory getSqlSessionFactory() {
+//		return sqlSessionFactory;
+//	}
 }
