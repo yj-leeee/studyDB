@@ -7,9 +7,9 @@ import ldg.mybatis.repository.CommentSessionResultMapRepository;
 public class CommentResultMapService {
 	private CommentSessionResultMapRepository commentRepository = new CommentSessionResultMapRepository();
 	
-	public Comment selectByPrimaryKey(Long commentNo) {
-		return commentRepository.selectCommentByPrimaryKey(commentNo);
-	}
+//	public Comment selectByPrimaryKey(Long commentNo) {
+//		return commentRepository.selectCommentByPrimaryKey(commentNo);
+//	}
 
 	public Comment selectCommentByPrimaryKeyConstructor(Long commentNo) {
 		return commentRepository.selectCommentByPrimaryKeyConstructor(commentNo);
