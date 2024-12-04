@@ -7,7 +7,7 @@ import ldg.mybatis.repository.mapper.CommentMapperResultMap;
 import org.apache.ibatis.session.SqlSession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+//
 public class CommentMapperResultMapRepository extends AbstractRepository {
 	private static final Logger LOGGER = LoggerFactory.getLogger(CommentMapperResultMapRepository.class);
 
