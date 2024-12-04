@@ -9,3 +9,4 @@ public class StringUtils {
 		}
 	}
 }
+//톰캣에 path설정
