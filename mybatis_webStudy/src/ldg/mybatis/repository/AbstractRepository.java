@@ -3,7 +3,7 @@ package ldg.mybatis.repository;
 import java.io.IOException;
 repository
 import java.io.InputStream;
-
+//AbstractRepository
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
