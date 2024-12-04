@@ -1,6 +1,7 @@
 package ldg.mybatis.repository;
 
 import java.io.IOException;
+repository
 import java.io.InputStream;
 
 import org.apache.ibatis.io.Resources;
