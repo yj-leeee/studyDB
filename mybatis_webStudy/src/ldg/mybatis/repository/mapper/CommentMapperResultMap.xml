@@ -76,7 +76,7 @@
 		FROM comment 
 		WHERE comment_no = #{commentNo} 
 	</select>
-	
+	//
 	<select id="selectCommentByPrimaryKeyConstructor" parameterType="long" resultMap="constructorResultMap"> 
 		SELECT 
 			comment_no,
