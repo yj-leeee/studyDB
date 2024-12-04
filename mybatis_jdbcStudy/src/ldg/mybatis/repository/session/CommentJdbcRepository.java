@@ -146,7 +146,7 @@ public class CommentJdbcRepository {
 		PreparedStatement stmt = null;
 
 		try {
-			conn = this.getConnection();
+			conn = this.getConnection();//
 
 			StringBuilder sql = new StringBuilder("");
 			sql.append("UPDATE comment SET ");
