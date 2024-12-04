@@ -12,7 +12,7 @@ public class CommentMapperResultMapRepository extends /AbstractRepository/ {
 	private static final Logger LOGGER = LoggerFactory.getLogger(CommentMapperResultMapRepository.class);
 
 	public Comment selectCommentByPrimaryKey(Long commentNo) {
-		SqlSession sqlSession = getSqlSessionFactory().openSession();
+		/SqlSession sqlSession = getSqlSessionFactory().openSession();/
 		Comment result = null;
 		try {
 			result = sqlSession.getMapper(CommentMapperResultMap.class).selectCommentByPrimaryKey(commentNo);
