@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.*;
 
 import org.slf4j.*;
-
+모델클래스 위치
 @SuppressWarnings("serial")
 public class Comment implements Serializable {
 	private static final Logger LOGGER = LoggerFactory.getLogger(Comment.class);
