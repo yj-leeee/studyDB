@@ -4,7 +4,7 @@ import java.util.*;
 
 import ldg.mybatis.model.*;
 import ldg.mybatis.repository.CommentSessionDynamicSqlRepository;
-
+service
 public class CommentDynamicSqlService {
 	public List<Comment> selectComment(Long commentNo, String userId) {
 		Map<String, Object> condition = new HashMap<String, Object>();
