@@ -3,7 +3,7 @@
 //XML만으로 매핑구문과 결과매핑 처리
 //CommentMapperDynamicSql.xml의 selectCommentByPrimaryKey매핑구문
 Long commentNo = Long.parseLong(request.getParameter("commentNo"));
-CommentResultMapService commentResultMapService = new CommentResultMapService();
+// CommentResultMapService commentResultMapService = new CommentResultMapService();
 Comment comment = commentResultMapService.selectByPrimaryKey(commentNo);
 %>
 댓글번호 : <%= comment.getCommentNo() %><br>
