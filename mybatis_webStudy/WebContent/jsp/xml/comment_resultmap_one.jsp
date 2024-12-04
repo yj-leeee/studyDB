@@ -4,7 +4,7 @@
 //CommentMapperDynamicSql.xml의 selectCommentByPrimaryKey매핑구문
 Long commentNo = Long.parseLong(request.getParameter("commentNo"));
 // CommentResultMapService commentResultMapService = new CommentResultMapService();
-Comment comment = commentResultMapService.selectByPrimaryKey(commentNo);
+//Comment comment = commentResultMapService.selectByPrimaryKey(commentNo);
 %>
 댓글번호 : <%= comment.getCommentNo() %><br>
 작성자아이디 : <%= comment.getUserId() %><br>
