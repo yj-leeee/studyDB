@@ -67,15 +67,15 @@
 	
 	<cache />
 
-	<select id="selectCommentByPrimaryKey" parameterType="long" resultMap="constructorResultMap"> 
-		SELECT 
-			comment_no,
-			user_id,
-			comment_content,
-			reg_date
-		FROM comment 
-		WHERE comment_no = #{commentNo} 
-	</select>
+<!-- 	<select id="selectCommentByPrimaryKey" parameterType="long" resultMap="constructorResultMap">  -->
+<!-- 		SELECT  -->
+<!-- 			comment_no, -->
+<!-- 			user_id, -->
+<!-- 			comment_content, -->
+<!-- 			reg_date -->
+<!-- 		FROM comment  -->
+<!-- 		WHERE comment_no = #{commentNo}  -->
+<!-- 	</select> -->
 	
 	<select id="selectCommentByPrimaryKeyConstructor" parameterType="long" resultMap="constructorResultMap"> 
 		SELECT 
