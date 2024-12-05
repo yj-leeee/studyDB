@@ -14,7 +14,7 @@ import org.apache.ibatis.annotations.SelectProvider;
 import org.apache.ibatis.type.JdbcType;
 
 public interface CommentMapper {
-	@Select("SELECT comment_no, user_id, comment_content, reg_date FROM COMMENT WHERE comment_no = #{commentNo}")
+//	@Select("SELECT comment_no, user_id, comment_content, reg_date FROM COMMENT WHERE comment_no = #{commentNo}")
 	@Results({
 		@Result(column="comment_no", property="commentNo", jdbcType=JdbcType.BIGINT, id=true),
 		@Result(column="user_id", property="userId", jdbcType=JdbcType.VARCHAR),
