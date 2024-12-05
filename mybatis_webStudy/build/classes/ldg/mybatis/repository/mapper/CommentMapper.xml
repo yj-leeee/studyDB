@@ -3,6 +3,15 @@
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="ldg.mybatis.repository.mapper.CommentMapper">
+	<select id="selectCommentByPrimaryKey" parameterType="Long" resultType="Comment">
+		SELECT
+		comment_no AS commentNo,
+		user_id AS userId,
+		comment_content AS commentContent,
+		reg_date AS regDate,
+		FROM COMMENT
+		WHERE comment_no = #{commentNo}
+	</select>
 	<cache />
 	
 	<!--
