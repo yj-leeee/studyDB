@@ -5,17 +5,17 @@
 <mapper namespace="ldg.mybatis.repository.mapper.CommentMapperDynamic">
 	<cache />
 
-	<select id="selectCommentByCondition" parameterType="hashmap" resultType="Comment">
-		SELECT
-			comment_no,
-			user_id,
-			comment_content,
-			reg_date
-		FROM comment
-		<if test="commentNo != null">
-			WHERE comment_no = #{commentNo}
-		</if>
-	</select>
+<!-- 	<select id="selectCommentByCondition" parameterType="hashmap" resultType="Comment"> -->
+<!-- 		SELECT -->
+<!-- 			comment_no, -->
+<!-- 			user_id, -->
+<!-- 			comment_content, -->
+<!-- 			reg_date -->
+<!-- 		FROM comment -->
+<!-- 		<if test="commentNo != null"> -->
+<!-- 			WHERE comment_no = #{commentNo} -->
+<!-- 		</if> -->
+<!-- 	</select> -->
 	
 	<select id="selectCommentByConditionIf" parameterType="hashmap" resultType="Comment">
 		SELECT
